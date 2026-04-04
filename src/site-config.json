@@ -1,0 +1,636 @@
+{
+  "business": {
+    "name": "Horizon Masonry",
+    "phone": "555-mas-r90",
+    "category": "masonry",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  "design": {
+    "preset": {
+      "id": "masonry-trust-navy",
+      "categoryGroup": "masonry",
+      "name": "Trust Navy",
+      "recipeFile": "masonry/trust-navy.astro",
+      "colors": {
+        "primary": "#92400E",
+        "primaryDark": "#78350F",
+        "primaryLight": "#e4cfc3",
+        "secondary": "#7c360c",
+        "accent": "#B45309",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#92400E",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Lora",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "masonry/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Philadelphia's Trusted Masonry Experts",
+      "heroSubline": "Horizon Masonry delivers durable brick and stonework for Philly's historic homes. We tackle freeze-thaw damage, row house repairs, and modern masonry needs with precision.",
+      "aboutTitle": "Built on Brick and Pride",
+      "aboutText": [
+        "Founded in 2012, Horizon Masonry grew from a two-man crew repairing Fishtown stoops to a 20+ team preserving Philadelphia's architectural legacy. We've laid every brick type from colonial reds to modern thin veneers.",
+        "Our masons train for two years before touching client projects. We use heritage techniques for historic homes and engineered solutions for new construction - always with locally sourced materials when possible.",
+        "When winter ice cracks your chimney or summer storms damage mortar joints, we're the crew your neighbors call. Sponsor of the Manayunk Arts Festival and volunteer rebuilders after the 2023 Kensington warehouse fire."
+      ],
+      "valueProps": [
+        {
+          "title": "Freeze-Thaw Specialists",
+          "description": "We replace damaged brick with materials rated for Philadelphia's 40° winter swings."
+        },
+        {
+          "title": "Row House Whisperers",
+          "description": "Know every quirk of shared walls, stepped foundations, and century-old mortar mixes."
+        },
+        {
+          "title": "No Surprise Pricing",
+          "description": "Fixed-rate quotes include hidden structural repairs common in older Philly homes."
+        },
+        {
+          "title": "Permit Pros",
+          "description": "Handle all historic district approvals and L&I inspections so you don't have to."
+        }
+      ],
+      "ctaHeadline": "Your Walls Deserve This Attention",
+      "ctaSubline": "Schedule a free masonry evaluation - we'll show you what's failing and why."
+    },
+    "services": [
+      {
+        "slug": "historic-brick-repointing",
+        "name": "Historic Brick Repointing",
+        "shortDescription": "Breathable lime mortar repairs that preserve 100+ year old Philadelphia brickwork.",
+        "description": "Philadelphia's historic row houses demand mortar that moves with seasonal shifts. Modern cement-based products crack and trap moisture, accelerating brick spalling. We mix custom lime mortars matching your home's original composition and color.\n\nEvery joint is hand-raked to proper depth before packing with mortar that's softer than the brick itself. This allows necessary moisture evaporation while maintaining structural integrity. We stabilize loose bricks with stainless steel pins when needed, never relying on surface patches that fail within seasons.\n\nWork includes full masonry cleaning using low-pressure methods safe for delicate glazed headers and ornate corbelling common in Society Hill and Old City properties.",
+        "process": [
+          "Step 1: Mortar analysis to identify original composition and match color",
+          "Step 2: Joint excavation to 2x joint depth using specialized tools",
+          "Step 3: Custom mortar mixing with locally sourced lime and aggregates",
+          "Step 4: Hand-packing and tooling joints for historic accuracy"
+        ],
+        "benefits": [
+          "Prevents irreversible brick face spalling",
+          "Improves wall breathability by 300% over cement repairs",
+          "Maintains eligibility for historic tax credits",
+          "15-year warranty on materials and labor"
+        ],
+        "faq": [
+          {
+            "question": "Will repointing make my brick walls stronger?",
+            "answer": "Proper repointing restores original load-bearing capacity by eliminating voids. We reinforce with hidden stainless pins only where absolutely necessary to avoid altering historic fabric."
+          },
+          {
+            "question": "How messy is the process?",
+            "answer": "We contain dust with negative air systems and protect landscaping with heavy-duty tarps. Most clients are surprised how clean the site stays."
+          },
+          {
+            "question": "Can you match my unusual mortar color?",
+            "answer": "Our library includes 47 historic Philadelphia mortar samples. For rare pigments like the purple-tinted mortar found in some Queen Village homes, we work with local labs to recreate exact formulations."
+          }
+        ]
+      },
+      {
+        "slug": "chimney-rebuilding",
+        "name": "Chimney Rebuilding",
+        "shortDescription": "Structurally sound rebuilds that withstand Philly's Nor'easters and ice dams.",
+        "description": "A leaning chimney in Philadelphia isn't just an eyesore - it's a hazard when winter winds whip down the Schuylkill. We rebuild from the roofline up using tapered flue liners and reinforced parging that stands up to freeze-thaw cycles.\n\nEvery rebuild starts with a Level II inspection camera scan to identify hidden flue cracks and deteriorated smoke chambers. We then demo damaged sections using boom-supported platforms that protect your roof from impact damage. New construction incorporates seismic ties in earthquake-prone areas like Germantown and stainless steel caps to deter nesting animals common in Chestnut Hill.\n\nFor historic properties, we salvage and clean original brick whenever possible, supplementing with custom-made matches from local brickyards. Modern homes receive insulated flue systems that improve draft while meeting current energy codes.",
+        "process": [
+          "Step 1: Camera inspection and structural assessment",
+          "Step 2: Controlled demolition with debris containment",
+          "Step 3: Flue liner installation with proper clearances",
+          "Step 4: Masonry rebuild using appropriate materials for era"
+        ],
+        "benefits": [
+          "Eliminates fire risks from cracked flues",
+          "Prevents water infiltration at roof penetrations",
+          "Includes wildlife-proof crown installation",
+          "Passes strict Philadelphia L&I inspections"
+        ],
+        "faq": [
+          {
+            "question": "How long until I can use my fireplace after rebuilding?",
+            "answer": "Mortar needs 30 days to fully cure before first firing. We provide detailed curing instructions and schedule a follow-up thermal scan."
+          },
+          {
+            "question": "Do you work on decorative chimneys that aren't functional?",
+            "answer": "Absolutely. Many Victorian twins in West Philly have ornate chimneys that require specialized tuckpointing and terra cotta repair."
+          },
+          {
+            "question": "Will my homeowners insurance cover this?",
+            "answer": "We document all structural deficiencies with photos and engineer-ready reports that streamline claims for storm or freeze damage."
+          }
+        ]
+      },
+      {
+        "slug": "stone-foundation-repair",
+        "name": "Stone Foundation Repair",
+        "shortDescription": "Stabilizing Philadelphia's iconic rubble stone foundations for another century.",
+        "description": "The irregular stone foundations under Philadelphia's oldest homes shift gradually from hydrostatic pressure and root intrusion. We stabilize without compromising historic character using a three-phase approach.\n\nFirst, our structural assessment identifies whether movement is active or settled - critical for determining repair strategy in neighborhoods like Society Hill where some homes still settle 300 years after construction. For active movement, we install hidden helical piers at strategic load points. Static repairs involve lime grout injection and stainless steel stitching rods.\n\nAll work maintains the original rubble stone appearance from the exterior. Interior parging uses vapor-permeable materials to prevent basement moisture issues common in low-lying areas like East Passyunk. We coordinate with plumbing and electrical contractors when foundation work affects utilities.",
+        "process": [
+          "Step 1: Laser level mapping of foundation plane deviations",
+          "Step 2: Excavation with shoring for worker safety",
+          "Step 3: Structural stabilization method matched to movement type",
+          "Step 4: Lime mortar repointing and drainage improvements"
+        ],
+        "benefits": [
+          "Arrests differential settlement cracking in walls above",
+          "Improves basement humidity control",
+          "Preserves historic fabric",
+          "Includes 5-year monitoring program"
+        ],
+        "faq": [
+          {
+            "question": "How disruptive is foundation repair?",
+            "answer": "Most projects require 2-3 days of interior access for monitoring equipment. Exterior work is contained within 8'x8' excavation zones protected by steel plates at night."
+          },
+          {
+            "question": "Can you match my irregular stone pattern?",
+            "answer": "Our masons train specifically on Philadelphia's distinctive schist and gneiss rubble patterns. We source replacement stone from local salvage yards when available."
+          },
+          {
+            "question": "Will this prevent my basement from flooding?",
+            "answer": "While we improve drainage, severe flooding requires separate waterproofing. We'll identify the right solution during assessment."
+          }
+        ]
+      },
+      {
+        "slug": "brick-paver-installation",
+        "name": "Brick Paver Installation",
+        "shortDescription": "Permeable paving solutions for Philly's tight rowhouse courtyards and walkways.",
+        "description": "Philadelphia's stormwater runoff regulations make permeable paving essential for new hardscapes. We install brick pavers over engineered aggregate bases that meet the city's 85% infiltration requirement while standing up to salt and snowplows.\n\nFor narrow Northern Liberties alleys and Rittenhouse courtyards, we precision-cut bricks onsite to maintain bond patterns around obstructions. All installations include edge restraints that prevent spreading on Philadelphia's hilly terrain and polymeric sand joints that resist weed growth without chemical treatments.\n\nHistoric district projects use reclaimed brick matched to neighborhood character, while modern installations feature thermal-treated pavers that won't fade from UV exposure. We coordinate with PWD inspectors to ensure proper grading away from foundations - critical in flood-prone areas like Eastwick.",
+        "process": [
+          "Step 1: Percolation testing and utility markouts",
+          "Step 2: Excavation to proper depth with soil remediation if needed",
+          "Step 3: Geotextile and aggregate base installation",
+          "Step 4: Paver laying with laser-guided leveling"
+        ],
+        "benefits": [
+          "Reduces stormwater fees through PWD credits",
+          "Eliminates icy patches with proper pitch",
+          "Uses 30% less salt for winter maintenance",
+          "No unsightly settling like poured concrete"
+        ],
+        "faq": [
+          {
+            "question": "How soon can I walk on new pavers?",
+            "answer": "Light foot traffic after 24 hours, full use after 72 hours. We schedule final compaction after this curing period."
+          },
+          {
+            "question": "Do you repair existing brick walkways?",
+            "answer": "Yes - we relevel sunken sections using slabjacking techniques that preserve original bricks whenever possible."
+          },
+          {
+            "question": "Can pavers handle trash day in tight alleys?",
+            "answer": "Our commercial-grade installations in Center City withstand daily sanitation truck traffic when properly edged and compacted."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-block-construction",
+        "name": "Concrete Block Construction",
+        "shortDescription": "Fast, durable CMU walls for Philadelphia garages, additions, and retaining walls.",
+        "description": "When Philadelphia homeowners need new structural walls - whether for a Manayunk garage or a Roxborough basement finish - we build with concrete masonry units (CMU) that outperform wood framing in our climate.\n\nAll block walls receive vertical rebar grouted solid at corners and openings, meeting Philadelphia's strict wind load requirements. We parge exterior surfaces with waterproof coatings that prevent efflorescence from road salt in winter. For below-grade applications like Chestnut Hill retaining walls, we install drainage boards and weep holes to relieve hydrostatic pressure.\n\nProjects integrate seamlessly with existing brick architecture through careful detailing. Common applications include: party wall replacements in attached homes, soundproof media room walls, and fire-rated separations for ADU conversions now permitted under new zoning rules.",
+        "process": [
+          "Step 1: Foundation inspection and preparation",
+          "Step 2: Dry-stack layout for optimal cutting efficiency",
+          "Step 3: Rebar installation and grouting",
+          "Step 4: Surface finishing per project requirements"
+        ],
+        "benefits": [
+          "3x more fire resistant than wood framing",
+          "Blocks 45% more street noise",
+          "No termite or rot concerns",
+          "Lower insurance premiums for attached structures"
+        ],
+        "faq": [
+          {
+            "question": "How does block construction handle Philly's humidity?",
+            "answer": "CMU naturally regulates moisture when properly sealed. We use vapor-permeable coatings that prevent trapped moisture issues common with vinyl siding."
+          },
+          {
+            "question": "Can you match my existing brick exterior?",
+            "answer": "We apply thin brick veneers or stucco finishes that blend with adjacent materials while maintaining block's structural benefits."
+          },
+          {
+            "question": "Is block construction more expensive than wood?",
+            "answer": "Initial costs run 15-20% higher, but you save on fire insurance, maintenance, and energy bills over time - we'll show you the math."
+          }
+        ]
+      },
+      {
+        "slug": "fireplace-refacing",
+        "name": "Fireplace Refacing",
+        "shortDescription": "Transforming outdated hearths into Center City showpieces with real masonry.",
+        "description": "Philadelphia's 1970s ranch homes and 1990s loft conversions often suffer from builder-grade fireplace surrounds that detract from their potential. We rebuild fireboxes and create custom surrounds using materials ranging from salvaged factory brick to hand-carved limestone.\n\nEvery project starts with a safety inspection - we frequently discover improper clearances in flipped properties. For gas inserts popular in Northern Liberties condos, we install proper ventilation and non-combustible surrounds. Wood-burning applications in Mount Airy stone colonials receive soapstone hearths that retain heat safely.\n\nDesign options include: arched openings to match original row house proportions, recessed log storage nooks for tight spaces, and integrated display ledges for art collections. All work complies with Philadelphia's strict fireplace ordinances and includes carbon monoxide detector placement guidance.",
+        "process": [
+          "Step 1: Safety inspection and measurements",
+          "Step 2: Removal of non-compliant materials",
+          "Step 3: Firebox reconstruction as needed",
+          "Step 4: Custom surround construction and finishing"
+        ],
+        "benefits": [
+          "Increases home value more than superficial updates",
+          "Eliminates draft issues from poorly sized flues",
+          "Materials selected for easy Philly-friendly maintenance",
+          "Includes annual inspection discount"
+        ],
+        "faq": [
+          {
+            "question": "Can you work around my existing mantel?",
+            "answer": "We assess structural integrity first. Many vintage mantels need reinforcement before surrounding with new masonry - we preserve original details whenever possible."
+          },
+          {
+            "question": "What's the most durable material for active families?",
+            "Answer": "Glazed brick withstands kid and pet traffic better than porous stone. We source locally made ceramic brick with subtle variegation for character."
+          },
+          {
+            "question": "How disruptive is the demo phase?",
+            "Answer": "We contain dust with negative air machines and typically complete tear-out in one day. HEPA vacuuming ensures no particulate remains."
+          }
+        ]
+      },
+      {
+        "slug": "parging-waterproofing",
+        "name": "Parging & Waterproofing",
+        "shortDescription": "Stopping basement leaks in Philadelphia's century-old foundations.",
+        "description": "Philadelphia's high water table and aging mortar make basement moisture a constant battle. Our parging system goes beyond superficial coatings to address the root causes of water intrusion.\n\nWe start by excavating to footer level - a step most contractors skip in tight South Philly lots. All loose mortar is removed with needle scalers before applying a cementitious parging layer reinforced with polymer fibers. The final elastomeric coating bridges hairline cracks that would allow moisture penetration.\n\nFor severe cases like the Wissahickon schist foundations in Germantown, we install French drains tied to sump systems. Every job includes grading corrections to divert roof runoff - often the primary culprit in rowhouse dampness. We warranty against water penetration for 10 years, including efflorescence removal if it occurs.",
+        "process": [
+          "Step 1: Full perimeter excavation where possible",
+          "Step 2: Mortar removal and surface preparation",
+          "Step 3: Parging application in controlled layers",
+          "Step 4: Drainage improvements and backfilling"
+        ],
+        "benefits": [
+          "Reduces basement humidity by up to 70%",
+          "Prevents structural damage from freeze-thaw cycles",
+          "Includes downspout and grading adjustments",
+          "10-year transferable warranty"
+        ],
+        "faq": [
+          {
+            "question": "How long until I can finish my basement after parging?",
+            "answer": "Curing takes 28 days before vapor barriers can be installed. We provide moisture testing at 30 days to confirm readiness."
+          },
+          {
+            "question": "Will this work on fieldstone foundations?",
+            "answer": "Yes - our specialty mortar mix flexes with irregular stones while maintaining waterproof integrity. Critical for Mt. Airy and Chestnut Hill homes."
+          },
+          {
+            "question": "Can you match my exterior brick color?",
+            "answer": "We offer tinted topcoats in 12 Philadelphia-common shades. For historic properties, recommend leaving parging natural below grade."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Historic Brick Repointing",
+        "text": "The team saved my 1890s Queen Village row house from disaster. They discovered previous contractors had used cement mortar that was forcing bricks to spall. Their lime mortar mix matched the original perfectly and their scaffolding system didn't damage my delicate ironwork. Two winters later - zero new cracks.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Chimney Rebuilding",
+        "text": "After the 2024 ice storm left my Chestnut Hill chimney leaning dangerously, Horizon not only rebuilt it but improved the draft with a properly sized flue liner. They salvaged 90% of my original stone and even replicated the unusual owl nesting ledge that's been there since the 1920s. Passed L&I inspection on first try.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Devon P.",
+        "rating": 5,
+        "service": "Brick Paver Installation",
+        "text": "Our Northern Liberties alley was a mud pit every rainstorm. Horizon designed a permeable paver system that handles delivery truck weight while meeting Philly's stormwater rules. The herringbone pattern makes our tiny courtyard look twice as big. Neighbors keep asking who did the work.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Gina L.",
+        "rating": 5,
+        "service": "Stone Foundation Repair",
+        "text": "The cracks in our Manayunk basement walls were growing visibly each year. Horizon installed helical piers and lime grout that stopped movement without altering the historic character. Their crew worked around our weird schedule and left the site cleaner than they found it. Finally no more winter drafts!",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Raj B.",
+        "rating": 5,
+        "service": "Fireplace Refacing",
+        "text": "Our 70s-era Roxborough fireplace looked like a motel lobby disaster. Horizon rebuilt the firebox to code and created a stunning limestone surround with hidden log storage. They even matched the original mid-century brass screen we wanted to keep. First contractor who actually listened to our vision.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Tasha W.",
+        "rating": 5,
+        "service": "Parging & Waterproofing",
+        "text": "Five contractors told me my East Passyunk basement would always be damp. Horizon excavated down to the footer (in February no less!), installed proper drainage, and used a breathable parging system. First dry spring in 12 years of ownership. Worth every penny.",
+        "date": "2024-06-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Philadelphia Masonry Contractors | Brick & Stone Experts",
+        "description": "Horizon Masonry repairs and restores Philadelphia's historic brick and stone structures. Freeze-thaw specialists serving all neighborhoods since 2012."
+      },
+      "about": {
+        "title": "About Horizon Masonry | Philadelphia's Trusted Masons",
+        "description": "Meet the craftsmen preserving Philly's architectural heritage. Learn why row house owners trust us for durable, historically accurate masonry repairs."
+      },
+      "services": {
+        "title": "Philadelphia Masonry Services | Brick & Stone Repair",
+        "description": "From chimney rebuilds to foundation repairs, we solve Philadelphia's unique masonry challenges with locally proven techniques and materials."
+      },
+      "contact": {
+        "title": "Contact Horizon Masonry | Philadelphia Masonry Pros",
+        "description": "Schedule your free masonry evaluation. We serve Philadelphia and surrounding communities with prompt, professional service."
+      },
+      "reviews": {
+        "title": "Horizon Masonry Reviews | Philadelphia Client Stories",
+        "description": "See why Philadelphia homeowners and businesses consistently rate our masonry services 5 stars for quality, reliability, and historic sensitivity."
+      },
+      "service-areas": {
+        "title": "Masonry Services in Philadelphia & Surrounding Areas",
+        "description": "Horizon Masonry provides expert brick and stone work throughout the Philadelphia metro area, including all historic districts and suburbs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Philadelphia",
+        "slug": "philadelphia-pa",
+        "state": "PA",
+        "content": "Horizon Masonry proudly serves Philadelphia, offering expert masonry services to enhance the historic and modern structures throughout the city. From brickwork repairs to custom stone installations, our skilled team ensures top-quality craftsmanship tailored to Philadelphia's diverse architectural styles. Whether you're in Center City or the surrounding neighborhoods, we provide reliable solutions for residential and commercial masonry projects.",
+        "localContext": "Philadelphia's rich history and vibrant neighborhoods make masonry work essential for preserving its iconic charm.",
+        "nearbyAreas": [
+          "Conshohocken",
+          "Bala Cynwyd",
+          "Glenside"
+        ]
+      },
+      {
+        "city": "Conshohocken",
+        "slug": "conshohocken-pa",
+        "state": "PA",
+        "content": "Horizon Masonry is a trusted name in Conshohocken, delivering exceptional masonry services to homeowners and businesses alike. Our team specializes in brick, stone, and concrete work, ensuring durable and aesthetically pleasing results for every project. Whether you need a new patio, retaining wall, or chimney repair, we’re committed to excellence in every detail.",
+        "localContext": "Conshohocken's mix of historic homes and modern developments requires versatile masonry expertise.",
+        "nearbyAreas": [
+          "Plymouth Meeting",
+          "Norristown",
+          "Bryn Mawr"
+        ]
+      },
+      {
+        "city": "Bala Cynwyd",
+        "slug": "bala-cynwyd-pa",
+        "state": "PA",
+        "content": "In Bala Cynwyd, Horizon Masonry provides top-tier masonry services to enhance the beauty and functionality of your property. From elegant stone facades to sturdy brick walkways, our craftsmanship reflects the high standards of this community. We tailor our services to meet the unique needs of both historic and contemporary properties.",
+        "localContext": "Bala Cynwyd's upscale homes and scenic landscapes demand precision and attention to detail in masonry work.",
+        "nearbyAreas": [
+          "Narberth",
+          "Merion Station",
+          "Wynnewood"
+        ]
+      },
+      {
+        "city": "Glenside",
+        "slug": "glenside-pa",
+        "state": "PA",
+        "content": "Horizon Masonry serves Glenside with expert masonry solutions designed to withstand the test of time. Our team handles everything from brick repairs to custom stone installations, ensuring your property remains both beautiful and structurally sound. Glenside’s charming neighborhoods deserve craftsmanship that complements their character.",
+        "localContext": "Glenside’s blend of historic and mid-century homes calls for skilled masonry to maintain its timeless appeal.",
+        "nearbyAreas": [
+          "Jenkintown",
+          "Abington",
+          "Cheltenham"
+        ]
+      },
+      {
+        "city": "Norristown",
+        "slug": "norristown-pa",
+        "state": "PA",
+        "content": "Horizon Masonry is Norristown’s go-to source for reliable and affordable masonry services. Whether you’re restoring a historic building or constructing a new feature, our team delivers quality brick, stone, and concrete work. We take pride in contributing to the durability and beauty of Norristown’s diverse structures.",
+        "localContext": "Norristown’s industrial heritage and growing residential areas make masonry services indispensable.",
+        "nearbyAreas": [
+          "King of Prussia",
+          "Bridgeport",
+          "East Norriton"
+        ]
+      },
+      {
+        "city": "King of Prussia",
+        "slug": "king-of-prussia-pa",
+        "state": "PA",
+        "content": "Horizon Masonry brings premier masonry services to King of Prussia, catering to both residential and commercial clients. Our expertise ranges from intricate stonework to robust brick installations, ensuring your property stands out in this bustling community. Trust us to enhance your home or business with durable, high-quality masonry.",
+        "localContext": "King of Prussia’s rapid development and upscale properties require expert masonry craftsmanship.",
+        "nearbyAreas": [
+          "Wayne",
+          "Radnor",
+          "Phoenixville"
+        ]
+      },
+      {
+        "city": "Jenkintown",
+        "slug": "jenkintown-pa",
+        "state": "PA",
+        "content": "Jenkintown residents rely on Horizon Masonry for top-notch brick and stonework that enhances their homes’ curb appeal. Our team specializes in everything from chimney repairs to custom hardscaping, ensuring lasting beauty and functionality. We’re dedicated to preserving the charm of Jenkintown’s historic and modern properties alike.",
+        "localContext": "Jenkintown’s quaint downtown and historic homes benefit from meticulous masonry care.",
+        "nearbyAreas": [
+          "Abington",
+          "Cheltenham",
+          "Elkins Park"
+        ]
+      },
+      {
+        "city": "Wayne",
+        "slug": "wayne-pa",
+        "state": "PA",
+        "content": "Horizon Masonry is proud to serve Wayne with exceptional masonry services tailored to its upscale neighborhoods. From elegant stone veneers to sturdy brick patios, our craftsmanship meets the highest standards. Whether it’s restoration or new construction, we deliver results that complement Wayne’s refined aesthetic.",
+        "localContext": "Wayne’s luxurious homes and commercial properties demand precision and artistry in masonry work.",
+        "nearbyAreas": [
+          "Radnor",
+          "Bryn Mawr",
+          "Devon"
+        ]
+      },
+      {
+        "city": "Phoenixville",
+        "slug": "phoenixville-pa",
+        "state": "PA",
+        "content": "Horizon Masonry provides Phoenixville with expert masonry solutions for both historic and contemporary properties. Our team excels in brickwork, stone installations, and concrete projects, ensuring durability and visual appeal. Phoenixville’s vibrant community deserves masonry services that enhance its unique character.",
+        "localContext": "Phoenixville’s revitalized downtown and historic homes require skilled masonry to maintain their charm.",
+        "nearbyAreas": [
+          "Collegeville",
+          "Royersford",
+          "Kimberton"
+        ]
+      },
+      {
+        "city": "Narberth",
+        "slug": "narberth-pa",
+        "state": "PA",
+        "content": "Horizon Masonry serves Narberth with high-quality masonry services designed to elevate homes and businesses. Our team handles everything from brick repairs to custom stonework, ensuring your property reflects Narberth’s quaint and sophisticated vibe. Trust us to deliver craftsmanship that stands the test of time.",
+        "localContext": "Narberth’s small-town charm and historic architecture call for meticulous masonry care.",
+        "nearbyAreas": [
+          "Merion Station",
+          "Bala Cynwyd",
+          "Wynnewood"
+        ]
+      },
+      {
+        "city": "Abington",
+        "slug": "abington-pa",
+        "state": "PA",
+        "content": "Abington residents trust Horizon Masonry for reliable brick, stone, and concrete work that enhances their properties. Whether it’s a new retaining wall or a fireplace restoration, our team delivers precision and durability. We’re committed to helping Abington maintain its beautiful homes and landscapes.",
+        "localContext": "Abington’s mix of historic estates and suburban homes requires versatile masonry expertise.",
+        "nearbyAreas": [
+          "Jenkintown",
+          "Glenside",
+          "Cheltenham"
+        ]
+      },
+      {
+        "city": "Radnor",
+        "slug": "radnor-pa",
+        "state": "PA",
+        "content": "Horizon Masonry provides Radnor with expert masonry services that blend seamlessly into its upscale surroundings. From elegant stone facades to functional brickwork, our craftsmanship meets the highest standards. Radnor’s prestigious homes and commercial properties deserve nothing less than exceptional masonry care.",
+        "localContext": "Radnor’s affluent community demands meticulous and high-end masonry solutions.",
+        "nearbyAreas": [
+          "Wayne",
+          "Bryn Mawr",
+          "Villanova"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "historic-brick-repointing": "/images/service-historic-brick-repointing.webp",
+      "chimney-rebuilding": "/images/service-chimney-rebuilding.webp",
+      "stone-foundation-repair": "/images/service-stone-foundation-repair.webp",
+      "brick-paver-installation": "/images/service-brick-paver-installation.webp",
+      "concrete-block-construction": "/images/service-concrete-block-construction.webp",
+      "parging-waterproofing": "/images/service-parging-waterproofing.webp",
+      "fireplace-refacing": "/images/service-fireplace-refacing.webp"
+    },
+    "servicesResponsive": {
+      "historic-brick-repointing": {
+        "src": "/images/service-historic-brick-repointing.webp",
+        "srcset": "/images/service-historic-brick-repointing-400w.webp 400w, /images/service-historic-brick-repointing-800w.webp 800w, /images/service-historic-brick-repointing-1200w.webp 1200w, /images/service-historic-brick-repointing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chimney-rebuilding": {
+        "src": "/images/service-chimney-rebuilding.webp",
+        "srcset": "/images/service-chimney-rebuilding-400w.webp 400w, /images/service-chimney-rebuilding-800w.webp 800w, /images/service-chimney-rebuilding-1200w.webp 1200w, /images/service-chimney-rebuilding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stone-foundation-repair": {
+        "src": "/images/service-stone-foundation-repair.webp",
+        "srcset": "/images/service-stone-foundation-repair-400w.webp 400w, /images/service-stone-foundation-repair-800w.webp 800w, /images/service-stone-foundation-repair-1200w.webp 1200w, /images/service-stone-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "brick-paver-installation": {
+        "src": "/images/service-brick-paver-installation.webp",
+        "srcset": "/images/service-brick-paver-installation-400w.webp 400w, /images/service-brick-paver-installation-800w.webp 800w, /images/service-brick-paver-installation-1200w.webp 1200w, /images/service-brick-paver-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-block-construction": {
+        "src": "/images/service-concrete-block-construction.webp",
+        "srcset": "/images/service-concrete-block-construction-400w.webp 400w, /images/service-concrete-block-construction-800w.webp 800w, /images/service-concrete-block-construction-1200w.webp 1200w, /images/service-concrete-block-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "parging-waterproofing": {
+        "src": "/images/service-parging-waterproofing.webp",
+        "srcset": "/images/service-parging-waterproofing-400w.webp 400w, /images/service-parging-waterproofing-800w.webp 800w, /images/service-parging-waterproofing-1200w.webp 1200w, /images/service-parging-waterproofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fireplace-refacing": {
+        "src": "/images/service-fireplace-refacing.webp",
+        "srcset": "/images/service-fireplace-refacing-400w.webp 400w, /images/service-fireplace-refacing-800w.webp 800w, /images/service-fireplace-refacing-1200w.webp 1200w, /images/service-fireplace-refacing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
